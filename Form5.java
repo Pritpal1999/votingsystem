@@ -30,7 +30,7 @@ public class Form5 extends javax.swing.JFrame {
         setIconImage(icon.getImage());
         setExtendedState(JFrame.MAXIMIZED_BOTH);
         getContentPane().setBackground(new Color(255,255,153));
-        addWindowListener(new WinClose());
+        addWindowListener(new WinClose()); // i added this comment sarry
     }
     class WinClose extends WindowAdapter
 	{
