@@ -29,7 +29,7 @@ public class Form5 extends javax.swing.JFrame {
         icon=new ImageIcon("C:/Users/Oem/Documents/NetBeansProjects/com.mycompany_VotingSystem_jar_1.0-SNAPSHOT/src/main/java/com/mycompany/votingsystem/Images/images.png");
         setIconImage(icon.getImage());
         setExtendedState(JFrame.MAXIMIZED_BOTH);
-        getContentPane().setBackground(new Color(255,255,153));
+        getContentPane().setBackground(new Color(255,255,153));// new line added 
         addWindowListener(new WinClose()); // i added this comment sarry
     }
     class WinClose extends WindowAdapter
